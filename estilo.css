@@ -1,0 +1,366 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* cor verde xbox - #107C10
+   cor preto xbox - #3A3A3A */
+
+body {
+	background-color: black;
+	font-family: Arial;
+	overflow-x: hidden;
+}
+
+/* TOPO */
+#container {
+	background-color: #3A3A3A;
+	width: 1365px;
+}
+
+.logo:hover {
+	background-color: #107C10;
+	border-radius: 30px;
+}
+
+.nome:hover {
+	text-shadow: 0 0 4px #fff;
+}
+
+#container header {
+	background-image: linear-gradient(to bottom, #107C10, #3A3A3A);
+}
+
+header {
+	display: flex;
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	display: flex;
+	padding: 30px;
+	margin-left: 30px;
+}
+
+header a p {
+	margin-left: 30px;
+	margin-top: 0.5em;
+}
+
+/* TOPO BUSCA */
+.busca {
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-left: 760px;
+}
+
+.busca input {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	border-color: grey;
+	height: 30px;
+	widows: 50px;
+	background-color: transparent;
+}
+
+.busca i {
+	cursor: pointer;
+	color: white;
+	padding-right: 5px;
+}
+
+.busca-input::placeholder {
+	padding-left: 20px;
+}
+
+input[type=text] {
+	color: white;
+}
+
+/* TOPO PERFIL */
+.perfil {
+	padding-left: 20px;
+	padding-top: 22px;
+	cursor: pointer;
+}
+
+.perfil img {
+	border-radius: 30px;
+}
+
+.perfil img:hover {
+	border: 2px solid #107C10;
+}
+
+/* CORPO FORTNITE */
+.fort-logo {
+	position: absolute;
+	margin-left: 563px;
+	margin-top: 30px;
+}
+
+.texto {
+	color: white;
+	position: absolute;
+	margin-left: 477px;
+	margin-top: 140px;
+}
+
+.texto h2 {
+	font-family: Bahnschrift;
+	font-size: 26px;
+}
+
+.texto p {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.t2 {
+	margin-left: 35px;
+}
+
+.t2 i {
+	margin-right: 5px;
+}
+
+button {
+	font-family: Bahnschrift;
+	font-size: 16px;
+	width: 300px;
+	height: 38px;
+	margin-left: 55px;
+	margin-top: 30px;
+	background: #008745;
+	border: none;
+	color: white;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+/* CORPO JOGOS */
+.gamepass {
+	font-family: Bahnschrift;
+	height: auto;
+	width: 1365px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: black;
+	background-image: linear-gradient(to bottom, #143929, #1a1b1f);
+}
+
+.gamepass img {
+	margin-top: 30px;
+}
+
+.gamepass h1 {
+	color: white;
+	text-align: left;
+	margin-left: 85px;
+	font-size: 25px;
+	position: absolute;
+}
+
+.gamepass h4 {
+	text-align: right;
+	margin-right: 102px;
+	margin-top: 20px;
+}
+
+.gamepass2 h1 {
+	color: white;
+	text-align: left;
+	margin-left: 55px;
+	font-size: 25px;
+	position: absolute;
+}
+
+.gamepass2 h4 {
+	text-align: right;
+	margin-right: 60px;
+	margin-top: 20px;
+}
+
+.gamepass h4 a:hover {
+	background-color: #515863ff;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.gamepass a {
+	font-family: Arial;
+	text-decoration: none;
+	color: white;
+	font-weight: lighter;
+}
+
+/* JOGOS */
+.jogos li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+	overflow: hidden;
+}
+
+.jogos img {
+	border-radius: 4px;
+	-webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.jogos img:hover {
+	-webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.jogos2 li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+	overflow: hidden;
+}
+
+.jogos2 img {
+	border-radius: 4px;
+	-webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.jogos2 img:hover {
+	-webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.jo li {
+	margin-right: 10px !important;
+}
+
+.jo h1 {
+	margin-left: 25px;
+}
+
+.jo h4 {
+	margin-right: 35px;
+}
+
+.todos {
+	margin-bottom: 30px;
+	background-color: #2d3037;
+	border-radius: 4px;
+	padding-top: 2px;
+}
+
+/* GENEROS */
+.generos {
+	padding-top: 30px;
+	padding-right: 70px;
+	font-family: Bahnschrift;
+	padding-bottom: 30px;
+}
+
+.card0 {
+	background-color: #008745;
+	width: 140px;
+	height: 86px;
+	border-radius: 4px;
+	display: inline-flex;
+	flex-direction: column;
+	margin-left: 65px;
+}
+
+.card {
+	background-color: #008745;
+	width: 140px;
+	height: 86px;
+	border-radius: 4px;
+	display: inline-flex;
+	flex-direction: column;
+	margin-left: 10px;
+	position: relative;
+	grid-column: span;
+}
+
+.card a, .card0 a {
+	font-family: Bahnschrift;
+	text-decoration: none;
+	color: white;
+	margin-left: 10px;
+	padding-right: 20px;
+}
+
+.card i, .card0 i {
+	color: white;
+	margin-top: 20px;
+	margin-right: 10px;
+	text-align: right;
+}
+
+.card:hover, .card0:hover {
+	text-shadow: 0 0 4px #fff;
+}
+
+button:hover {
+	text-shadow: 0 0 2px #fff;
+}
+
+/* FOOTER */
+#footer {
+	background-color: black;
+	color: #8b8a80;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top:  40px;
+	padding-bottom:  40px;
+}
+
+#footer li {
+	list-style: none;
+	padding: 8px 0;
+}
+
+#footer li:hover {
+	color: white;
+}
+
+#footer a {
+	font-size: 12px;
+	color: #8b8a80;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.footer {
+	background-color: black;
+	color: #8b8a80;
+	padding-left: 80px;
+	padding-top:  40px;
+	padding-bottom:  20px;
+}
+
+.footer li {
+	list-style: none;
+	padding: 8px 0;
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.footer li:hover {
+	color: white;
+}
+
+.footer a {
+	font-size: 12px;
+	color: #8b8a80;
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
